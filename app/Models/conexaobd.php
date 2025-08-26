@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class conexaobd extends Model
 {
     protected $fillable = [
-        'name',
+        'nome',
         'preco',
         'marca'
     ];

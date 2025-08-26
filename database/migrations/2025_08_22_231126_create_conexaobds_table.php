@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('conexaobds', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('nome');
             $table->decimal('preco');
             $table->string('marca');
             $table->timestamps();
